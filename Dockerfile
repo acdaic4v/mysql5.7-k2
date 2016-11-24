@@ -4,5 +4,5 @@
 FROM mysql:5.7.16
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
-RUN /bin/echo "[mysqld]\nsql-mode=\"allow_invalid_dates\"" >> /etc/mysql/my.cnf
+RUN /bin/echo "[mysql]\nsql-mode=\"allow_invalid_dates\"" >> /etc/mysql/my.cnf
 
